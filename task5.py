@@ -35,7 +35,7 @@ def publish_weather_report():
 
 
 def append_to_file(content):
-    with open("news_feed.txt", "a", encoding="utf-8") as f:
+    with open("Task5_news_feed.txt", "a", encoding="utf-8") as f:
         f.write(content)
     print("Record published!\n")
 
